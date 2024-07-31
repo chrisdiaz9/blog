@@ -1,0 +1,44 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+/* src/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(245, 245, 220, 0.298);
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand a {
+  font-size: 48px;
+  font-style: italic;
+}
+
+.navbar-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+a {
+  font-family: "Source Sans 3", sans-serif;
+}
+li::marker {
+  content: " ";
+}
