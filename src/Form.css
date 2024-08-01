@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+@media only screen and (min-width: 768px) {
+  .whole-form {
+    margin-left: 10%;
+    width: 40%;
+    display: flex;
+    float: left;
+    margin-left: 80px;
+  }
+}
+
+h2 {
+  margin-top: 10%;
+  margin-bottom: auto;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 38px;
+}
+
+button.formkit-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fd8f0f;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.formkit-field {
+  padding: 5px;
+}
+
+.formkit-input {
+  padding: 10px;
+  background: #ebebeb;
+  border: none;
+}
+
+.disclosure {
+  color: #404040;
+  opacity: 70%;
+
+}

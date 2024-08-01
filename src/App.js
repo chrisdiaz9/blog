@@ -1,13 +1,14 @@
 import "./App.css";
 import Navbar from "./Navbar.js";
-import About from "./demo-form.js";
+import Form from "./Form.js";
 
 function App() {
-  return <div className="App">
-    <Navbar />
-    <About />
-    
-  </div>;
+  return (
+    <div className="App">
+      <Navbar />
+      <Form />
+    </div>
+  );
 }
 
 export default App;

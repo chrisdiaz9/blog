@@ -7,7 +7,6 @@ const SignupForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    <script async data-uid="3c3caa593c" src="https://chris-diaz-letters.ck.page/3c3caa593c/index.js"></script>
     // Send email to convertkit
 
     setSubmitted(true);
