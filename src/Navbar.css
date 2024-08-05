@@ -2,18 +2,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
 /* src/Navbar.css */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: rgba(245, 245, 220, 0.298);
+
+@media only screen and (min-width: 786px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 20px 80px;
+    background-color: #f5f3ec;
+  }
+}
+
+/* mobile responsive navbar */
+
+@media only screen and (max-width: 786px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px 20px 30px;
+  }
 }
 
 .navbar a {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
   color: black;
   text-decoration: none;
-  margin: 0 10px;
 }
 
 .navbar a:hover {
@@ -36,9 +51,6 @@
   list-style-type: none;
 }
 
-a {
-  font-family: "Source Sans 3", sans-serif;
-}
 li::marker {
   content: " ";
 }
