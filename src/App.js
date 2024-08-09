@@ -1,7 +1,6 @@
 import "./App.css";
 import Navbar from "./Navbar.js";
 import Form from "./Form.js";
-import BlogPost from "./Post.js";
 import Footer from "./Footer.js";
 
 const posts = [
@@ -24,16 +23,6 @@ function App() {
     <div className="App">
       <Navbar />
       <Form />
-      <h1>My pieces of work</h1>
-      {posts.map((post) => (
-        <BlogPost
-          key={post.id}
-          title={post.title}
-          content={post.content}
-          date={post.date}
-        />
-      ))}
-
       <Footer />
     </div>
   );
