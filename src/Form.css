@@ -1,15 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-@media only screen and (min-width: 768px) {
-  .whole-form {
-    width: 100%;
-    display: flex;
-    margin-left: 80px;
-  }
-}
 
 h2 {
-  margin-top: 10%;
   margin-bottom: auto;
   font-family: "Source Sans 3", sans-serif;
   font-size: 38px;

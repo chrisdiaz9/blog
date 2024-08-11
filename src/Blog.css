@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+
+
+
+
+.row {
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-md-12 {
+  background-color: rgb(251, 246, 240);
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  max-width: 1000px;
+}
+
+.post-header {
+  font-family: "Source Sans 3", sans-serif;
+}
