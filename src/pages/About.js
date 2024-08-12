@@ -1,12 +1,11 @@
 import React from "react";
-import "./About.css";
 import MainLayout from "../layout/MainLayout";
 
 const About = () => {
   return (
     <MainLayout>
       <div>
-        <p>
+        <p className="">
           I'm Chris, and probably just like you, I have a goal I'm working
           towards. Mine is to achieve personal and financial independence. If
           you think I'm cool I assure you I'm not. I'm only 20 years old and

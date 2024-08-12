@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
 
-
 h2 {
+  margin-top: 18px;
   margin-bottom: auto;
   font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
   font-size: 38px;
 }
 
@@ -31,5 +32,4 @@ button.formkit-submit {
 .disclosure {
   color: #404040;
   opacity: 70%;
-
 }
